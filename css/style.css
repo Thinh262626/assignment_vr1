@@ -584,3 +584,7 @@
 .text-brown {
     color: #6f4e37; /* Màu nâu cà phê */
   }
+  
+  .text-shadow {
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
