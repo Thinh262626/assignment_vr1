@@ -139,88 +139,216 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block border rounded-pill py-1 px-4">DANH Mục</p>
+                <p class="d-inline-block border rounded-pill py-1 px-4">Danh mục</p>
                 <h1>CÁC DÒNG SẢN PHẨM CHÍNH</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-light rounded h-100 p-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                            style="width: 65px; height: 65px;">
-                            <i class="fa fa-seedling text-brown fs-4"></i>
+                    <div class="service-item bg-light rounded h-100 p-5 position-relative overflow-hidden"
+                         style="background: url('img/whey%20thinh%20DÂU.png') center center / cover no-repeat;">
+                
+                        <!-- Overlay gradient màu hồng-tím -->
+                        <div class="position-absolute top-0 start-0 w-100 h-100"
+                             style="background: linear-gradient(135deg, rgba(255,192,203,0.5), rgba(221,160,221,0.5));
+                                    z-index: 1;"></div>
+                
+                        <!-- ✅ MODEL 3D – TÁCH RA LỚP TRÊN -->
+                        <div class="model-wrapper position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="z-index: 3; pointer-events: none;">
+                             <model-viewer class="whey-3d-full pink-glow"
+                             src="img/2.glb" alt="Whey 3D"
+                             auto-rotate camera-controls ar></model-viewer>
+               
+                            </model-viewer>
                         </div>
-                        
-                        <model-viewer src="img/2.glb" alt="Whey 3D" auto-rotate camera-controls class="whey-3d-full"
-                            ar></model-viewer>
-                        <h4 class="mb-3">Vinafit Whey – Dâu Tươi Creamy</h4>
-                        <p class="mb-4">Vị dâu tươi mát lành kết hợp lớp kem mịn, dành riêng cho ai yêu vị ngọt ngào và tinh tế.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                
+                        <!-- ✅ NỘI DUNG – LỚP DƯỚI -->
+                        <div class="content-layer position-relative" style="z-index: 2; transition: filter 0.3s ease;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                 style="width: 100px; height: 100px;">
+                                <i class="fa fa-seedling text-brown fs-4"></i>
+                            </div>
+                
+                            <h4 class="mb-3 text-white text-shadow">Vinafit Whey – Dâu Tươi Creamy</h4>
+                            <p class="mb-4 text-white text-shadow">
+                                Vị dâu tươi mát lành kết hợp lớp kem mịn, dành riêng cho ai yêu vị ngọt ngào và tinh tế.
+                            </p>
+                            <a class="btn text-white" href="#"><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                        </div>
                     </div>
+                </div>
+                
+                
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5 position-relative overflow-hidden"
+                         style="background: url('img/whey\ thinh\ MATCHAR.png') center center / cover no-repeat;">
+                
+                        <!-- Overlay gradient màu hồng-tím -->
+                        <div class="position-absolute top-0 start-0 w-100 h-100"
+     style="background: linear-gradient(135deg, rgba(152,251,152,0.6), rgba(50,205,50,0.5)); z-index: 1;"></div>
 
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-light rounded h-100 p-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                            style="width: 65px; height: 65px;">
-                            <i class="fa fa-lemon text-warning fs-4"></i>
+                
+                        <!-- ✅ MODEL 3D – TÁCH RA LỚP TRÊN -->
+                        <div class="model-wrapper position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="z-index: 3; pointer-events: none;">
+                             <model-viewer class="whey-3d-full matcha-glow"
+                             src="img/3.glb" alt="Whey 3D"
+                             auto-rotate camera-controls ar></model-viewer>
+               
+                            </model-viewer>
                         </div>
-                        <model-viewer src="img/3.glb" alt="Whey 3D" auto-rotate camera-controls class="whey-3d-full"
-                            ar></model-viewer>
-                        <h4 class="mb-3">Vinafit Whey – Matcha Nhật</h4>
-                        <p class="mb-4">Matcha chuẩn Nhật Bản, thanh mát và dịu nhẹ. Lựa chọn tuyệt vời cho người sống xanh, sống khỏe.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-light rounded h-100 p-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                            style="width: 65px; height: 65px;">
-                            <i class="fa fa-ice-cream text-danger fs-4"></i>
+                
+                        <!-- ✅ NỘI DUNG – LỚP DƯỚI -->
+                        <div class="content-layer position-relative" style="z-index: 2; transition: filter 0.3s ease;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                 style="width: 100px; height: 100px;">
+                                <i class="fa fa-seedling text-brown fs-4"></i>
+                            </div>
+                
+                            <h4 class="mb-3 text-white text-shadow">Vinafit Whey – Matcha Nhật</h4>
+                            <p class="mb-4 text-white text-shadow">
+                                Matcha chuẩn Nhật Bản, thanh mát và dịu nhẹ. Lựa chọn tuyệt vời cho người sống xanh, sống khỏe.
+                            </p>
+                            <a class="btn text-white" href="#"><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
                         </div>
-                        <model-viewer src="img/4.glb" alt="Whey 3D" auto-rotate camera-controls class="whey-3d-full"
-                            ar></model-viewer>
-                        <h4 class="mb-3">Vinafit Whey – Socola Smooth</h4>
-                        <p class="mb-4">Hòa quyện đậm vị socola, thơm ngon dễ uống. Thích hợp cho gymer và người cần bổ sung đạm mỗi ngày.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-light rounded h-100 p-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                            style="width: 65px; height: 65px;">
-                            <i class="fa fa-cookie-bite text-dark fs-4"></i>
+                    <div class="service-item bg-light rounded h-100 p-5 position-relative overflow-hidden"
+                         style="background: url('img/whey\ thinh\ SOCOLA.png') center center / cover no-repeat;">
+                
+                        <!-- Overlay gradient màu hồng-tím -->
+                        <div class="position-absolute top-0 start-0 w-100 h-100"
+     style="background: linear-gradient(135deg, rgba(139,69,19,0.6), rgba(160,82,45,0.5)); z-index: 1;"></div>
+
+                
+                        <!-- ✅ MODEL 3D – TÁCH RA LỚP TRÊN -->
+                        <div class="model-wrapper position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="z-index: 3; pointer-events: none;">
+                             <model-viewer class="whey-3d-full choco-glow"
+                             src="img/4.glb" alt="Whey 3D"
+                             auto-rotate camera-controls ar></model-viewer>
+               
+                            </model-viewer>
                         </div>
-                        <model-viewer src="img/5.glb" alt="Whey 3D" auto-rotate camera-controls class="whey-3d-full"
-                            ar></model-viewer>
-                        <h4 class="mb-3">Vinafit Whey – Vanilla Ice Cream</h4>
-                        <p class="mb-4">Vị vani kem mịn, nhẹ nhàng, dễ uống. Phù hợp cho cả người mới bắt đầu lẫn gymer chuyên nghiệp.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                
+                        <!-- ✅ NỘI DUNG – LỚP DƯỚI -->
+                        <div class="content-layer position-relative" style="z-index: 2; transition: filter 0.3s ease;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                 style="width: 100px; height: 100px;">
+                                <i class="fa fa-seedling text-brown fs-4"></i>
+                            </div>
+                
+                            <h4 class="mb-3 text-white text-shadow">Vinafit Whey – Socola Smooth</h4>
+                            <p class="mb-4 text-white text-shadow">
+                                Hòa quyện đậm vị socola, thơm ngon dễ uống. Thích hợp cho gymer và người cần bổ sung đạm mỗi ngày.
+                            </p>
+                            <a class="btn text-white" href="#"><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-light rounded h-100 p-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                            style="width: 65px; height: 65px;">
-                            <i class="fa fa-snowflake text-info fs-4"></i>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5 position-relative overflow-hidden"
+                         style="background: url('img/whey\ thinh\ CAFE.png') center center / cover no-repeat;">
+                
+                        <!-- Overlay gradient màu hồng-tím -->
+                        <div class="position-absolute top-0 start-0 w-100 h-100"
+     style="background: linear-gradient(135deg, rgba(111,78,55,0.6), rgba(92,64,51,0.5)); z-index: 1;"></div>
+
+                
+                        <!-- ✅ MODEL 3D – TÁCH RA LỚP TRÊN -->
+                        <div class="model-wrapper position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="z-index: 3; pointer-events: none;">
+                             <model-viewer class="whey-3d-full mocha-glow"
+                             src="img/6.glb" alt="Whey 3D"
+                             auto-rotate camera-controls ar></model-viewer>
+               
+                            </model-viewer>
                         </div>
-                        <model-viewer src="img/6.glb" alt="Whey 3D" auto-rotate camera-controls class="whey-3d-full"
-                            ar></model-viewer>
-                        <h4 class="mb-3">Vinafit Whey – Cà Phê Mocha</h4>
-                        <p class="mb-4">Hương vị cà phê đậm đà, đánh thức năng lượng. Dành cho người yêu vị truyền thống và cần phục hồi sau tập..</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                
+                        <!-- ✅ NỘI DUNG – LỚP DƯỚI -->
+                        <div class="content-layer position-relative" style="z-index: 2; transition: filter 0.3s ease;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                 style="width: 100px; height: 100px;">
+                                <i class="fa fa-seedling text-brown fs-4"></i>
+                            </div>
+                
+                            <h4 class="mb-3 text-white text-shadow">Vinafit Whey – Cà Phê Mocha</h4>
+                            <p class="mb-4 text-white text-shadow">
+                                Vị dâu tươi mát lành kết hợp lớp kem mịn, dành riêng cho ai yêu vị ngọt ngào và tinh tế.
+                            </p>
+                            <a class="btn text-white" href="#"><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-light rounded h-100 p-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                            style="width: 65px; height: 65px;">
-                            <i class="fa fa-seedling text-success fs-4"></i>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5 position-relative overflow-hidden"
+                         style="background: url('img/whey\ thinh\ VANI.png') center center / cover no-repeat;">
+                
+                        <!-- Overlay gradient màu hồng-tím -->
+                        <div class="position-absolute top-0 start-0 w-100 h-100"
+     style="background: linear-gradient(135deg, rgba(255,248,220,0.6), rgba(245,222,179,0.5)); z-index: 1;"></div>
+
+                
+                        <!-- ✅ MODEL 3D – TÁCH RA LỚP TRÊN -->
+                        <div class="model-wrapper position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="z-index: 3; pointer-events: none;">
+                             <model-viewer class="whey-3d-full vanilla-glow"
+                             src="img/5.glb" alt="Whey 3D"
+                             auto-rotate camera-controls ar></model-viewer>
+               
+                            </model-viewer>
                         </div>
-                        <model-viewer src="img/1.glb" alt="Whey 3D" auto-rotate camera-controls class="whey-3d-full"
-                            ar></model-viewer>
-                        <h4 class="mb-3">Vinafit Whey – Chuối Chín</h4>
-                        <p class="mb-4">Hương chuối ngọt nhẹ tự nhiên, dễ pha dễ uống. Lý tưởng cho người ăn kiêng và tập luyện nhẹ nhàng.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                
+                        <!-- ✅ NỘI DUNG – LỚP DƯỚI -->
+                        <div class="content-layer position-relative" style="z-index: 2; transition: filter 0.3s ease;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                 style="width: 100px; height: 100px;">
+                                <i class="fa fa-seedling text-brown fs-4"></i>
+                            </div>
+                
+                            <h4 class="mb-3 text-white text-shadow">Vinafit Whey – Vanilla Ice Cream</h4>
+                            <p class="mb-4 text-white text-shadow">
+                                Vị vani kem mịn, nhẹ nhàng, dễ uống. Phù hợp cho cả người mới bắt đầu lẫn gymer chuyên nghiệp.
+                            </p>
+                            <a class="btn text-white" href="#"><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5 position-relative overflow-hidden"
+                         style="background: url('img/whey\ thinh\ CHUỐI.png') center center / cover no-repeat;">
+                
+                        <!-- Overlay gradient màu hồng-tím -->
+                        <div class="position-absolute top-0 start-0 w-100 h-100"
+     style="background: linear-gradient(135deg, rgba(255,223,51,0.6), rgba(255,193,51,0.5)); z-index: 1;"></div>
+
+                
+                        <!-- ✅ MODEL 3D – TÁCH RA LỚP TRÊN -->
+                        <div class="model-wrapper position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="z-index: 3; pointer-events: none;">
+                             <model-viewer class="whey-3d-full mango-glow"
+                             src="img/1.glb" alt="Whey 3D"
+                             auto-rotate camera-controls ar></model-viewer>
+               
+                            </model-viewer>
+                        </div>
+                
+                        <!-- ✅ NỘI DUNG – LỚP DƯỚI -->
+                        <div class="content-layer position-relative" style="z-index: 2; transition: filter 0.3s ease;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                 style="width: 100px; height: 100px;">
+                                <i class="fa fa-seedling text-brown fs-4"></i>
+                            </div>
+                
+                            <h4 class="mb-3 text-white text-shadow">Vinafit Whey – Chuối Chín</h4>
+                            <p class="mb-4 text-white text-shadow">
+                                Hương chuối ngọt nhẹ tự nhiên, dễ pha dễ uống. Lý tưởng cho người ăn kiêng và tập luyện nhẹ nhàng.
+                            </p>
+                            <a class="btn text-white" href="#"><i class="fa fa-plus text-primary me-3"></i>Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
                     </div>
                 </div>
             </div>

@@ -584,7 +584,40 @@
 .text-brown {
     color: #6f4e37; /* Màu nâu cà phê */
   }
+  @keyframes glowPulse {
+    0%   { filter: drop-shadow(0 0 5px var(--glow-color, white)); }
+    50%  { filter: drop-shadow(0 0 25px var(--glow-color, white)); }
+    100% { filter: drop-shadow(0 0 5px var(--glow-color, white)); }
+  }
+  
+  .pink-glow       { --glow-color: rgba(255,99,132,0.9); }     /* Dâu – hồng dâu tươi */
+  .matcha-glow     { --glow-color: rgba(144,238,144,0.9); }    /* Matcha – xanh lá non */
+  .choco-glow      { --glow-color: rgba(90,45,30,0.9); }       /* Socola – nâu socola đậm */
+  .mocha-glow      { --glow-color: rgba(111,78,55,0.9); }      /* Cà phê – nâu mocha */
+  .vanilla-glow    { --glow-color: rgba(255,248,220,0.9); }    /* Vani – kem vanilla dịu */
+  .mango-glow      { --glow-color: rgba(255,183,0,0.9); }      /* Xoài – vàng cam rực rỡ */
+  
+  /* Hover: thêm hiệu ứng phát sáng cho model-viewer */
+  .service-item:hover model-viewer {
+    animation: glowPulse 1.5s ease-in-out infinite;
+  }
   
   .text-shadow {
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
 }
+.service-item:hover .background-overlay {
+    backdrop-filter: blur(4px) brightness(60%);
+}
+
+.service-item:hover .background-overlay {
+    backdrop-filter: blur(4px) brightness(60%);
+    .overlay-gray {
+        background-color: rgba(211, 211, 211, 0.4); /* xám nhạt */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+      
